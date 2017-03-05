@@ -1,32 +1,30 @@
-## Functional JS Lesson Code From `egghead.io`
+## 0x00 Use a Javascript Array to Construct a Maybe
+Much of our code in real life is full of if statements that check the validity of a given input to see if a given computation should be performed. Using the ever popular Maybe construction allows us capture this disjunction in one place, keeping our functions free of similar if statements that can pollute the intention of the function. You do not even need a fancy library to get this benefit, as Javascript ships with everything you need with it's build in Array.
 
-This is the main repository that houses all the code examples from the lessons I have done on [egghead.io][1] around Functional Programming in Javascript. Every lesson has its own branch that includes all the source code from the lesson, usually including additional bits to further expand on the topic at hand.
-
-### Included Lessons
-
-| Title | Egghead Lesson | Plunker | Branch |
-|-------|----------------|---------|--------|
-| Make a Maybe with a Javascript Array | [video lesson][5] | [plunk][6] | [github][7] |
+The lesson on egghead can be found [here][5]
 
 ### Requirements
-These code examples run on a POSIX based system (Linux, OSX, etc) in a [nodejs][3] environment requiring a version greater than `4.2.x` to be run. If you *have* to work in another environment, each lesson also has a "plunk" hosted on [Plunker][4] that can be run in browser.
+This code example runs on a POSIX based system (Linux, OSX, etc) in a [nodejs][2] environment requiring a version greater than `4.2.x` to be run. If you *have* to work in another environment, this lesson also has a "plunk" hosted on [Plunker][3] that can be run in browser and can be found here:
 
-### Using These Examples
-All code examples and environments are provided on there own branch, named after the lesson it goes with. After pull this repository down, just checkout the branch you are interested in and run the following commands:
+[Lesson Plunk][4]
+
+### Using This Example
+This code example and environment is provided on its own branch. To run this locally, just clone this repository down, check out this branch and run the following commands:
 
 #### Setup Your Dependencies
-Different lessons may require different environments and dependencies. Some lessons are just run in node, while others run in the browser with a "poor man's build system". These lessons include an npm script to manage the dependencies for the specific lesson. To setup the lesson, execute this command in the lessons folder:
+To setup the lesson, execute this command in the project folder:
 
 ```
 $ npm run setup
 ```
 
-#### Run The Examples
-Once all dependencies have been pulled down, you can then run the examples with another npm script. How the results are viewed varies from lesson to lesson, so check each lesson's `README.md` to see how the results are viewed.
+#### Run The Code
+Once all dependencies have been pulled down, you can then run the example code.
 
-When running the examples, they will continue to run, listening to changes in your files. Once one of the files change, it will re-run/recompile script. When you are done playing with the code, you can quit the example with `ctrl+c` to get back to your prompt.
+This code runs in a node environment and logs to the console that the code was run in. Once started, the environment will listen to changes to the files and re-run the code. This allows you to have immediate feed back to the changes you made. To exit out of the code example, just press the keystroke `Ctrl+C`.
 
-You can run the examples by calling the following:
+To run the lesson, execute the following in the project folder:
+
 
 ```
 $ npm start
@@ -36,6 +34,5 @@ $ npm start
 [2]: https://nodejs.org/
 [3]: https://plnkr.co/
 
-[4]: https://egghead.io/lessons/javascript-create-streams-from-single-values-with-most-js
-[5]: https://embed.plnkr.co/YpYvHI2vbHofm9wrfORU/?show=JS
-[6]: https://github.com/evilsoft/eggheadio-most/tree/0x00-create-single-value-streams
+[4]: https://embed.plnkr.co/Df6WHtQD1XLeqX4b5Kvw/?show=script
+[5]: https://egghead.io/lessons/javascript-use-a-javascript-array-to-construct-a-maybe

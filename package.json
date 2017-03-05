@@ -1,0 +1,32 @@
+{
+  "name": "eggheadio-functional",
+  "version": "0.0.1",
+  "description": "0x00 Fake a Maybe with a Javascript Array",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js -q -x 'clear && node'",
+    "setup": "rm -rf node_modules && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evilsoft/eggheadio-functional.git"
+  },
+  "keywords": [
+    "eggheadio",
+    "ramda",
+    "functional",
+    "javascript"
+  ],
+  "author": "Ian Hofmann-Hicks (evil)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evilsoft/eggheadio-functional/issues"
+  },
+  "homepage": "https://github.com/evilsoft/eggheadio-functional#readme",
+  "dependencies": {
+    "eyes": "^0.1.8",
+    "nodemon": "^1.11.0",
+    "ramda": "^0.23.0"
+  }
+}
