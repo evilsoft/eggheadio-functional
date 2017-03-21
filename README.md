@@ -36,6 +36,6 @@ $ npm start
 [2]: https://nodejs.org/
 [3]: https://plnkr.co/
 
-[4]: https://egghead.io/lessons/
+[4]: https://egghead.io/lessons/javascript-use-a-javascript-array-to-construct-a-maybe
 [5]: https://embed.plnkr.co/Df6WHtQD1XLeqX4b5Kvw/?show=script
 [6]: https://github.com/evilsoft/eggheadio-functional/tree/0x00-js-array-maybe
